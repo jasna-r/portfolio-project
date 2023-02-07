@@ -1,0 +1,16 @@
+.card-container{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-img{
+    width: 60px;
+    padding-top: 10px;
+}
+.text{
+    font-size: 14px;
+    text-align: center;
+}
