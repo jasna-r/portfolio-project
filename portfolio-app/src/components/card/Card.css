@@ -1,16 +1,29 @@
-.card-container{
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+.card {
+   
+    background-color: #FDE7E1;
 }
 
-.icon-img{
-    width: 60px;
-    padding-top: 10px;
+.card-body {
+    
+    width: 400px;
+    
+    align-self: center;
 }
-.text{
-    font-size: 14px;
-    text-align: center;
+.card-img-top {
+    
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
+
+.btn {
+    display: flex;
+    transition: color 0.3s ease-in;
+}
+.btn:hover {
+    background-color: #40869b;
+    transition: color 0.3s ease-in;
+    
+
 }

@@ -42,7 +42,7 @@ const Projects = () => {
           alt="project three"
           title="Portfolio App"
           text="Portfolio App- Github repo"
-          projectlink="https://github.com/jasna-r/Jasna_Portfolio.git"
+          projectlink="https://github.com/jasna-r/portfolio-project.git"
           info="My personal portfolio which features some of my github projects,little bit about me, as well as my technical skills."
         />
       </div>

@@ -12,7 +12,7 @@ const AboutMe = () => {
         
         alt="my image"
       />
-      <div className="about-me-content">
+      <div className="about-me-content d-flex">
         <h2>About me</h2>
         <p>
         I am freshly certified Front-End developer.
