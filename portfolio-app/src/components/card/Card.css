@@ -1,14 +1,41 @@
 
 .card {
    
-    background-color: #FDE7E1;
+    background-color: #fae7b2;
+    
 }
 
 .card-body {
-    
+    font-family: 'Comfortaa', cursive;
     width: 400px;
     
     align-self: center;
+}
+
+.card-title {
+    font-size: 36px;
+}
+.card-title::after {
+    content: '';
+    position: absolute;
+    bottom: 310px;
+    left: 30%;
+    right: 30%;
+    height: 1px;
+    background-color: #fff;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: transform 0.1s ease-in;
+  }
+  .card-title:hover::after {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+p {
+    font-size: 20px;
+    font-weight: 900;
 }
 .card-img-top {
     
@@ -22,8 +49,6 @@
     transition: color 0.3s ease-in;
 }
 .btn:hover {
-    background-color: #40869b;
-    transition: color 0.3s ease-in;
-    
+   
 
 }

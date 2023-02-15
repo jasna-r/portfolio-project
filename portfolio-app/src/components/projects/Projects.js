@@ -1,20 +1,20 @@
 import ProjectCard from "../projectCard/ProjectCard"
 import "./Projects.css"
-import logo from "../../assets/rickAndMorty.PNG"
-import logo1 from "../../assets/Capture.PNG"
-import logo2 from "../../assets/Portfolio.PNG"
+import logo from "../../assets/Ric-and-morty-app.PNG"
+import logo1 from "../../assets/Movie-app.PNG"
+import logo2 from "../../assets/Portfolio-App.PNG"
 
 const Projects = () => {
   return (
-    <div className="projects-container">
-      <div className="projects-content">
-        <h1>My Projects</h1>
-        <p className="project-paragraph">
-         Here are some of my projects, that I have been working on. 
+    <div id="projects" className="projects-container container-fluid d-flex flex-column  py-5">
+      <div className="projects-content container text-center my-4 py-4">
+        <h1 className="h1 my-4">My Projects</h1>
+        <p className="project-paragraph my-4 h2">
+        Check out some of my recent creations 
         </p>
       </div>
 
-      <div className="projects-card-wrapper">
+      <div className="container-fluid d-flex">
         <ProjectCard
           src={logo}
           // src="https://media.istockphoto.com/photos/project-management-with-icons-about-planning-tasks-and-milestones-on-picture-id1135541613?k=20&m=1135541613&s=612x612&w=0&h=rHctItxe3Vi5AGnLfm-Qa_PARqNXaxhlc3TbFYFe3nI="

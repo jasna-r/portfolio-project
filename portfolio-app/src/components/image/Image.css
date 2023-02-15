@@ -1,3 +1,6 @@
-img{
-    width: 450px;
+.about-me-photo{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 50%;
 }

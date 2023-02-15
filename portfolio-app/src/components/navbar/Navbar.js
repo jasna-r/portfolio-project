@@ -11,13 +11,16 @@ function Navbar() {
     </a>
     <ul class="navbar-nav ml-auto mr-0 container justify-content-end ">
       <li class="nav-item">
-        <a class="nav-link " href="/home">Home</a>
+        <a class="nav-link " href="#introduction">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="/work">My Work</a>
+        <a class="nav-link " href="#projects">My Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="/contact">Contact</a>
+        <a class="nav-link " href="#contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#about">About</a>
       </li>
     </ul>
   </nav>

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
 .navbar {
-    background-color: #40869b;
+    background-color: #30505c;
     opacity: 0.9 ;
    
 
@@ -20,7 +20,7 @@ nav .navbar {
 
     .navbar .navbar-brand {
         color: aliceblue;
-        font-family: 'Lobster', cursive;
+        font-family: 'Concert One', cursive;
         font-size: 2.5rem;
       }
 

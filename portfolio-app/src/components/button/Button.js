@@ -1,6 +1,6 @@
 import "./Button.css"
 
 const Button = ({ children }) => {
-  return <button>{children}</button>
+  return <button className="button button-primary" >{children}</button>
 }
 export default Button

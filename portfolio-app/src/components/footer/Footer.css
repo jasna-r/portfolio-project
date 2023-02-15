@@ -1,11 +1,12 @@
-.footer-container{
-    /* display: flex; */
-    /* background-color: rgb(104, 22, 181); */
-    background-color: #006d77;
-    text-align: center;
-    padding: 2px;
-    color: white;
-    margin-left: 75px; 
-    margin-right: 75px;
-    margin-top: 30px;
+footer {
+  background-color: #30505c;
+  height: 200px;
+}
+
+.social-icons {
+  opacity: 0.9;
+}
+
+.icon-link:hover {
+  cursor: pointer;
 }
